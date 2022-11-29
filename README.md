@@ -4,7 +4,8 @@
 - em Typescipt
 - Criação de componentes e pages
 - CSS modules
-#### Vercel Pages: 
+- eslint config
+#### Vercel Pages: https://aluroni-react-router.vercel.app/
 
 # Getting Started with Create React App
 
