@@ -6,7 +6,7 @@
   display: flex;
   justify-content: flex-end;
   padding: 10px $padding-horizontal;
-  @media (max-width: $desktop_xsm) {
+  @media (max-width: $mobile) {
   padding: 10px $padding-horizontal-mobile;
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {

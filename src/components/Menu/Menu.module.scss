@@ -4,8 +4,21 @@
 .menu {
   display: flex;
   padding: 20px $padding-horizontal;
-  @media (max-width: $desktop_xsm) {
-    padding: 20px $padding-horizontal-mobile;
+  @media (max-width: 980px) {
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    
+    .menu__link {
+      padding: 0;
+    }
+
+    .menu__list {
+      padding: 0;
+      width: 100%;
+      justify-content: space-evenly;
+    }
+
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
     padding: 20px $padding-horizontal-sm;
