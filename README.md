@@ -5,7 +5,7 @@
 - Criação de componentes e pages
 - CSS modules
 - eslint config
-~~### TO-DO: Ajustar a resposividade mobile~~ :white_check_mark:
+### ~~TO-DO: Ajustar a resposividade mobile~~ :white_check_mark:
 #### Vercel Pages: https://aluroni-react-router.vercel.app/
 
 # Getting Started with Create React App
