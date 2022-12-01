@@ -14,9 +14,17 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  @media (max-width: 980px) {
+		width: 90%;
+		margin: 0 auto;
+	}
 }
 .titulo {
   font-size: 3rem;
+  @media (max-width: 980px) {
+		font-size: 2rem;
+    text-align: center;
+	}
 }
 .imagem {
   width: 600px;
@@ -24,6 +32,10 @@
     border-radius: 8px;
     width: 100%;
   }
+  @media (max-width: 980px) {
+		width: 90%;
+		margin: 0 auto;
+	}
 }
 .conteudo {
   align-items: center;
